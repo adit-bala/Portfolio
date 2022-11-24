@@ -4,17 +4,11 @@ export default function Index() {
   return (
     <>
       <nav className="">
-        <div className="">
-          <div class="">
-            <ul>
-              <li>
-                <a href="/"> Home </a>
-              </li>
-              <li>
-                <a href="/"> Blog </a>
-              </li>
-            </ul>
-          </div>
+        <div className="container ">
+            <div class="flex justify-end gap-x-8 space-x-4">
+              <a href="/" class="px-8 py-2 rounded-md text-sm font-medium" aria-current="page"> Home </a>
+              <a href="/" class="text-gray-300 hover:text-black px-8 py-2 rounded-md text-sm font-medium"> Blog </a>
+            </div>
         </div>
       </nav>
       <div className="py-10 max-w-sm mx-auto items-center space-x-4 space-y-3 text-center">
